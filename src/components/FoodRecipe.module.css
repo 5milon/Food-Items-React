@@ -1,0 +1,18 @@
+.searchFormInput{
+ background-color: gray;
+ outline: none;
+ border: none;
+ border-radius: 4px;
+    padding: 5px;
+    color: white;
+    width: 200px;
+    font-size: 16px;
+    transition: width 0.3s ease-in-out;
+    &:focus {
+        width: 300px;
+    }
+    &:hover {
+        background-color: darkgray;
+    }
+    
+}
